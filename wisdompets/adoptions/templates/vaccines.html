@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<div>
+    {% for vaccine in vaccine_data %}   <!-- for each loop -->
+        <div class="vaccinename">
+            <h3>{{ vaccine.name|capfirst }}</h3>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}
