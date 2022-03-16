@@ -27,7 +27,7 @@ SECRET_KEY='%%a3q(p_u1-qbr^rx*^er$!@xfh5y7v&^6+l0uk*h0=!*y72ak'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-CSRF_TRUSTED_ORIGINS = ['https://mcnallydm-code50-97439901-4jrqv9w67cj5x7-8000.githubpreview.dev']
+CSRF_TRUSTED_ORIGINS = ['https://pacific-bayou-79911.herokuapp.com']
 
 
 # Application definition
